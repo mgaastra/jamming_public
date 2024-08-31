@@ -1,5 +1,5 @@
 const clientId = process.env.REACT_APP_CLIENTID; // Insert client ID here.
-const redirectUri = 'http://localhost:3000/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
+const redirectUri = 'https://customspotifyplaylist.netlify.app/'; // Have to add this to your accepted Spotify redirect URIs on the Spotify API.
 let accessToken;
 
 const Spotify = {
