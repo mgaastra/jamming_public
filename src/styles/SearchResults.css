@@ -1,0 +1,68 @@
+
+.Track{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 0px 10px 10px 10px;
+    cursor: pointer;
+    
+      
+}
+
+.Track:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+
+.Track:active {
+    border-color: rgba(0, 0, 0, 0.7); ;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-size : 24px;
+    margin:15px;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 14px;
+    margin: 4px;
+}
+
+.search-container {
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.song-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    background-color: transparent;
+    font-size: 24px;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 0px 30px;
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+    font-weight: 900;
+    
+}

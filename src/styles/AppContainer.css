@@ -1,0 +1,45 @@
+.App {
+  background-image: url(../app-background.webp);
+  margin: 0px;
+  padding-bottom: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional: keeps the background fixed while scrolling */
+ 
+  
+}
+
+header {
+  border-top: 2px solid whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.6);
+  
+  
+}
+
+
+
+.App-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+
+  
+}
+
+
+.search-results {
+  display: flex;
+  min-width: 60vw;
+}

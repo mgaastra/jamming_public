@@ -1,0 +1,23 @@
+[
+  {
+    "uri": "uri_1",
+    "id":1,
+    "name": "Bicycle",
+    "artist": "Queen",
+    "album": "Greatest hits"
+  },
+  {
+    "uri": "uri_2",
+    "id":2,
+    "name": "We will rock you",
+    "artist": "Queen",
+    "album": "Greatest hits"
+  },
+  {
+    "uri": "uri_3",
+    "id":3,
+    "name": "Better Together",
+    "artist": "Jack Johnson",
+    "album":"Better Together music"
+  }
+]
