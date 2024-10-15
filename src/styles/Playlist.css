@@ -1,7 +1,8 @@
 .playlist-container {
     min-width: 30vw;
-    display: flex;
-    flex-direction: column;
+    display:block;
+    width: 40vw;
+    min-height: 30vh;
     padding: 10px;
     border: 1px solid whitesmoke;
     border-radius: 5px;
@@ -12,7 +13,11 @@
 
 #playlistName {
     font-size : 24px;
-    margin:15px;
+    display: block;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left: auto;
+    margin-right:auto;
     text-align: center;
     background-color: transparent;
     color: whitesmoke;
@@ -34,9 +39,13 @@
 
 
 .save-button {
+    display:block;
     border: 2px solid whitesmoke;
     max-width: 300px;
-    margin: 0 auto;
+    margin-top:15vh;
+    margin-bottom:15px;
+    margin-left: auto;
+    margin-right:auto;
     border-radius: 5px;
     font-weight: bold;
     padding: 5px 30px;
@@ -50,4 +59,12 @@
 .save-button:active {
     border-color: rgba(0, 0, 0, 0.7);
     
+}
+
+
+@media screen and (max-width: 910px) {
+    .playlist-container {
+        width: 80vw;
+    }
+
 }
